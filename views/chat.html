@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Live chat </title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="/socket-agent/css/style.css">
+  </head>
+
+  <body>
+
+    	<div class="ui">
+		<div class="left-menu">
+				<form action="#" class="search">
+					<input placeholder="search..." type="search" name="" id="">
+					<input type="submit" value="&#xf002;">
+				</form>
+				<menu class="list-friends">
+
+				</menu>
+		</div>
+		<div class="chat">
+			<div class="top">
+				<div class="avatar">
+					<img width="50" height="50" src="http://cs625730.vk.me/v625730358/1126a/qEjM1AnybRA.jpg">
+				</div>
+				<div class="info">
+					<div class="name">Pevita</div>
+					<div class="count">already 1 902 messages</div>
+				</div>
+				<i class="fa fa-star"></i>
+			</div>
+			<ul class="messages">
+				
+			</ul>
+			<div class="write-form">
+				<textarea id="data" placeholder="Type your message" name="e"  rows="2"></textarea>
+				<i class="fa fa-picture-o"></i>
+				<i class="fa fa-file-o"></i>
+				<span class="send" id="datasend">Send</span>
+			</div>
+		</div>
+	</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/nicescroll/3.5.4/jquery.nicescroll.js'></script>
+	<script src="/socket-agent/bca/js/socket.io.js"></script>
+	<script src="/socket-agent/js/index.js"></script>
+	<script src="/socket-agent/bca/js/main.js"></script>
+  </body>
+</html>
